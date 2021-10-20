@@ -3,7 +3,7 @@
 
 function traerInformacion(){
     $.ajax({
-        url:"http://150.136.106.94/:8080/api/Client/all",
+        url:"http://150.136.106.94:8080/api/Client/all",
         type:"GET",
         datatype:"JSON",
         success:function(respuesta){
